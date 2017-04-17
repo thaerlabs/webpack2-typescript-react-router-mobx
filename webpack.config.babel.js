@@ -7,7 +7,7 @@ const TARGET = process.env.npm_lifecycle_event;
 const commonConfig = merge(
 	{
 		entry: {
-			app: './src/index.ts'
+			app: './src/index.tsx'
 		},
 		output: {
 			filename: '[name].bundle.js',

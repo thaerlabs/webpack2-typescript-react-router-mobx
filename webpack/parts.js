@@ -48,7 +48,8 @@ module.exports.devServer = {
 		overlay: {
 			errors: true,
 			warnings: true
-		}
+		},
+		historyApiFallback: true
 	},
 	plugins: [new webpack.HotModuleReplacementPlugin()]
 };
